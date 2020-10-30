@@ -1,0 +1,81 @@
+.top__bar {
+    flex: 0;
+    padding: 20px 60px 50px 60px;
+}
+
+.top__bar--content {
+    height: 83.14px;
+    background-color: bisque;
+    display: flex;
+}
+
+.hero__image {
+    position: relative;
+}
+
+.hero__image--sun {
+    height: 33%;
+    top: 18%;
+    left: 57%;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero__image--boat {
+    background-image: url(images/boat.svg);
+    height: 124.5px;
+    width: 45.82px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 536.21px;
+    left: 681.42px;
+    position: absolute;
+}
+
+.hero__image--beach {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 10%;
+    width: 50%;
+}
+
+.hero__image--mountain-astronaunt {
+    width: 100%;
+}
+
+.hero__image--white-mountain {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.hero__image__left-column {
+    /* top: 235px;
+    left: 89px;
+    width: 713px;
+    height: 299px;
+    background-color: burlywood;
+    position: absolute; */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
