@@ -1,9 +1,9 @@
-.top__bar {
+.top-bar {
     flex: 0;
     padding: 20px 60px 50px 60px;
 }
 
-.top__bar--content {
+.top-bar__content {
     height: 83.14px;
     background-color: bisque;
     display: flex;
