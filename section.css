@@ -1,0 +1,60 @@
+.section-1 {
+    width: 1530px;
+    height: 1146px;
+    margin: 0 195px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__container {
+    flex: 2.5;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.services__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services__item--button {
+    width: 150px;
+    height: 45px;
+    background-color: #03AB5A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.business__container {
+    flex: 7.5;
+    background-color: #03AB5A;
+    border-radius: 50px;
+    display: flex;
+}
+
+.business__left {
+    flex: 4.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.business__right {
+    flex: 5.5;
+    position: relative;
+}
+
+.business__image {
+    position: absolute;
+    top: -40px;
+    width: 115%;
+}
+
+.section-2 {
+    width: 1528px;
+    height: 2280px;
+    background-color: burlywood;
+    margin: 0 197px;
+}
