@@ -1,7 +1,6 @@
     .services {
         width: 1530px;
         height: 1146px;
-        margin: 0 195px;
         display: flex;
         flex-direction: column;
     }
@@ -92,7 +91,6 @@
     
     .project {
         width: 1528px;
-        margin: 0 197px;
         display: flex;
         flex-direction: column;
         margin-top: 90px;
@@ -204,7 +202,7 @@
     }
     
     .contact {
-        margin: 75px 195px;
+        margin: 75px 0;
     }
     
     .contact_left {
