@@ -1,4 +1,4 @@
-.section-1 {
+.services {
     width: 1530px;
     height: 1146px;
     margin: 0 195px;
@@ -9,7 +9,7 @@
 .services__container {
     flex: 2.5;
     display: flex;
-    padding-bottom: 150px;
+    padding-bottom: 160px;
 }
 
 .services__item {
@@ -20,7 +20,25 @@
     align-items: center;
 }
 
-.services__item--button {
+.services__item--text h3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #606060;
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: bold;
+}
+
+.services__item--text p {
+    margin-bottom: 5px;
+}
+
+.services__item--sub-text {
+    color: #969595;
+    text-align: center;
+}
+
+.services--button {
     width: 150px;
     height: 45px;
     background-color: #03AB5A;
@@ -36,20 +54,40 @@
 }
 
 .business__left {
-    flex: 4.5;
+    flex: 0 0 537px;
     display: flex;
     flex-direction: column;
+    margin-top: 90px;
+    margin-left: 130px;
+}
+
+.business__left--content {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 10px;
+}
+
+.business__left--sub-content {
+    margin-top: 5px;
+}
+
+.business__left .btn {
+    margin-top: 15px;
+    width: 149.26px;
+    height: 45px;
+    background-color: #FDD78E;
 }
 
 .business__right {
-    flex: 5.5;
+    flex: 1;
     position: relative;
 }
 
 .business__image {
     position: absolute;
-    top: -40px;
-    width: 115%;
+    top: -50px;
+    width: 112%;
 }
 
 .project {
