@@ -1,0 +1,122 @@
+footer {
+    margin: 0 195px;
+}
+
+.footer {
+    display: flex;
+    width: 1530px;
+    height: 386px;
+    background: #03AB5A;
+    border-radius: 16px;
+    padding-top: 45px;
+    justify-content: space-between;
+}
+
+.footer__left {
+    margin-left: 55px;
+}
+
+.footer__left--container {
+    position: relative;
+}
+
+.footer__left--container h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer__left--container span {
+    color: #FFFFFF;
+    margin-left: 42px;
+}
+
+.footer__left--container .email-text {
+    text-decoration: underline;
+}
+
+.footer__left--container .home {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.footer__left--container .email {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.footer__mid {
+    margin-left: -110px;
+    margin-top: 10px;
+}
+
+.footer__mid--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__mid--container span {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.footer__right {
+    margin-right: 100px;
+}
+
+.footer__right--container h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: -12px;
+}
+
+.footer__right--container p {
+    color: #FFFFFF;
+}
+
+.footer__right form {}
+
+.footer__right form input {
+    width: 299px !important;
+    height: 48px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.footer__right form button {
+    height: 48px;
+    width: 79px;
+    background: #FDD78E;
+    border-radius: 8px;
+}
+
+.footer__right form input::placeholder {
+    color: #DADADA;
+}
+
+.copyright {
+    display: flex;
+    height: 52px;
+    padding-top: 13px;
+}
+
+.copyright div {
+    margin-left: 135px;
+    margin-right: 35px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #969595;
+}
+
+.copyright hr {
+    flex: 1;
+    margin-top: 8px;
+    border-color: black;
+}
