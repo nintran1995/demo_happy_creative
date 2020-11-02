@@ -119,6 +119,7 @@
     
     .project-title__content span {
         position: relative;
+        z-index: 0;
     }
     
     .project-title__content img {
@@ -229,6 +230,7 @@
     
     .contact__left--container .decoration {
         position: relative;
+        z-index: 0;
     }
     
     .contact__left--container img {
