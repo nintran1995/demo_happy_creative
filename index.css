@@ -26,6 +26,7 @@ header {
 .body-container {
     padding: 0 195px;
     background-color: white;
+    margin-top: 60px;
 }
 
 section {

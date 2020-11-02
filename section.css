@@ -96,50 +96,50 @@
         margin-top: 90px;
     }
     
-    .project-title_container {
+    .project-title__container {
         display: flex;
         width: 100%;
         height: 245px;
     }
     
-    .project-title_content {
+    .project-title__content {
         width: 990px;
     }
     
-    .project-title_content p {
+    .project-title__content p {
         color: #969595;
     }
     
-    .project-title_content h2 {
+    .project-title__content h2 {
         color: #606060;
         font-weight: bold;
         font-size: 48px;
         line-height: 55px;
     }
     
-    .project-title_content span {
+    .project-title__content span {
         position: relative;
     }
     
-    .project-title_content img {
+    .project-title__content img {
         position: absolute;
         left: 1px;
         bottom: 0;
         z-index: -1;
     }
     
-    .project-title_image {
+    .project-title__image {
         display: flex;
         align-items: flex-end;
         margin-bottom: 40px;
     }
     
-    .project-image_container {
+    .project-image__container {
         display: flex;
         justify-content: space-between;
     }
     
-    .project-contact_container {
+    .project-contact__container {
         display: flex;
         background-color: #f1f2f1;
         border-radius: 15px;
@@ -205,39 +205,39 @@
         margin: 75px 0;
     }
     
-    .contact_left {
+    .contact__left {
         flex: 0 960px;
     }
     
-    .contact_left--container p {
+    .contact__left--container p {
         color: #03AB5A;
         margin-bottom: 10px;
     }
     
-    .contact_left--container h2 {
+    .contact__left--container h2 {
         font-size: 48px;
         line-height: 55px;
         color: #161616;
         margin-bottom: 10px;
     }
     
-    .contact_left--container span {
+    .contact__left--container span {
         font-size: 32px;
         line-height: 37px;
         color: #161616;
     }
     
-    .contact_left--container .decoration {
+    .contact__left--container .decoration {
         position: relative;
     }
     
-    .contact_left--container img {
+    .contact__left--container img {
         position: absolute;
         right: 2px;
         bottom: -1px;
         z-index: -1;
     }
     
-    .contact_right {
+    .contact__right {
         flex: 1;
     }

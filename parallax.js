@@ -4,7 +4,7 @@ $(document).ready(function() {
     var imageSunTop = sun.offset().top;
     var mountain = $(".hero__image--white-mountain");
     var beach = $(".hero__image--beach");
-    var container = $(".body-container");
+
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
 
@@ -16,13 +16,10 @@ $(document).ready(function() {
         }
 
         mountain.css({
-            transform: 'translate3d(0,' + -window.scrollY / 15 + 'px, 0)'
-        });
-        container.css({
-            transform: 'translate3d(0,' + -window.scrollY / 12 + 'px, 0)'
+            transform: 'translate3d(0,' + -window.scrollY / 20 + 'px, 0)'
         });
         beach.css({
-            transform: 'translate3d(0,' + window.scrollY / 10 + 'px, 0)'
+            transform: 'translate3d(0,' + window.scrollY / 12 + 'px, 0)'
         });
     });
 });
