@@ -111,7 +111,7 @@
 }
 
 .hero__image--sun {
-    height: 33%;
+    min-height: 33%;
     top: 18%;
     left: 57%;
     position: absolute;
